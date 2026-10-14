@@ -1,0 +1,30 @@
+{
+  "testedAt": "2026-10-13T19:02:38.262Z",
+  "server": "Local production Next.js server with isolated MongoDB",
+  "tool": "Chrome PerformanceObserver and CDP",
+  "metrics": [
+    {
+      "scenario": "Desktop, local network, no CPU throttle",
+      "viewport": "1440x1000",
+      "lcpMs": 336,
+      "cls": 0,
+      "ttfbMs": 11,
+      "resourceTransferredBytes": 381858,
+      "navigationDurationMs": 80
+    },
+    {
+      "scenario": "Mobile, simulated 1.6 Mbps / 150 ms latency / 4x CPU slowdown",
+      "viewport": "390x844",
+      "lcpMs": 1136,
+      "cls": 0.0001,
+      "ttfbMs": 10,
+      "resourceTransferredBytes": 354032,
+      "navigationDurationMs": 2246
+    }
+  ],
+  "limitations": [
+    "Single local cold-browser sample per scenario; this is lab evidence, not real-user field data or a Lighthouse score.",
+    "INP requires representative interactions and field sampling; no INP estimate is claimed.",
+    "Local server latency does not represent hosting, destination markets, CDN behavior or production MongoDB."
+  ]
+}

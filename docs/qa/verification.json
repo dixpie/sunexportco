@@ -1,0 +1,38 @@
+{
+  "testedAt": "2026-10-13T19:02:43.679Z",
+  "node": "v26.5.0",
+  "database": "Isolated real mongod via mongodb-memory-server, discarded after test",
+  "server": "Production Next.js build",
+  "browser": "Installed Chrome headless",
+  "checks": [
+    "Idempotent seed and unique model indexes",
+    "Root redirects to the single English homepage",
+    "30 bilingual public routes, correct language, one H1, canonicals and reciprocal hreflang",
+    "Missing products, pages and unsupported locales return 404",
+    "Product quote identity, phone/WhatsApp links, structured data without fabricated offers",
+    "Sitemap contains 30 published canonical pages and robots excludes private paths",
+    "Real inquiry persistence, simultaneous duplicate protection, origin and operator-injection rejection",
+    "Inquiries cannot be read publicly; admin pages and API mutations require authentication",
+    "Password authentication, HttpOnly strict session and CSRF protection",
+    "Private inquiry list, status changes and internal notes persist",
+    "Published product edits invalidate public cache immediately",
+    "Draft products stay private and can be previewed by administrators",
+    "Draft page publication state and sitemap exclusion",
+    "Persistent media upload, validated raster conversion and unsafe SVG rejection",
+    "Malformed raster content returns a safe validation failure",
+    "50 browser layout checks across five widths: English/Russian, no overflow, no broken images",
+    "Mobile menu, Escape/focus behavior and equivalent product language switch",
+    "Keyboard accessible server-rendered FAQ accordion",
+    "Russian product preselection and actual browser form persistence",
+    "Browser admin login, catalog editing and publication",
+    "No browser JavaScript errors during tested flows",
+    "Localized network failure and retry persist exactly one inquiry",
+    "MongoDB-backed inquiry and login throttles enforce their limits",
+    "Logout revokes the corresponding database session",
+    "Recorded local production LCP/CLS lab samples with explicit throttling and limits",
+    "Database outage returns failure, never a false success"
+  ],
+  "limitations": [
+    "No production credentials, deployed service, WhatsApp phone account match, email delivery, real-user Core Web Vitals or cross-browser coverage were verified."
+  ]
+}

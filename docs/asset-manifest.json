@@ -1,0 +1,1292 @@
+{
+  "policy": "Originals preserved under assets/originals; supplied documents provide business source material, implementation request governs scope. No generated images or logos.",
+  "assets": [
+    {
+      "source": "assets/originals/apple_catalog.jpg.jpeg",
+      "dimensions": [
+        217,
+        155
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.4,
+      "output": "/media/apple.webp",
+      "outputDimensions": [
+        209,
+        143
+      ],
+      "crop": [
+        8,
+        12,
+        217,
+        155
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "apple",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 25522
+    },
+    {
+      "source": "assets/originals/cucumber_catalog.jpg.jpeg",
+      "dimensions": [
+        217,
+        159
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3648,
+      "output": "/media/cucumber.webp",
+      "outputDimensions": [
+        209,
+        139
+      ],
+      "crop": [
+        8,
+        20,
+        217,
+        159
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "cucumber",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 26703
+    },
+    {
+      "source": "assets/originals/kiwi_catalog.jpg.jpeg",
+      "dimensions": [
+        218,
+        156
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3974,
+      "output": "/media/kiwi.webp",
+      "outputDimensions": [
+        216,
+        144
+      ],
+      "crop": [
+        2,
+        12,
+        218,
+        156
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 25087
+    },
+    {
+      "source": "assets/originals/mandarin_catalog.jpg.jpeg",
+      "dimensions": [
+        217,
+        155
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.4,
+      "output": "/media/mandarin.webp",
+      "outputDimensions": [
+        196,
+        144
+      ],
+      "crop": [
+        21,
+        12,
+        217,
+        156
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "mandarin",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 28535
+    },
+    {
+      "source": "assets/originals/orange_catalog.jpg.jpeg",
+      "dimensions": [
+        215,
+        155
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3871,
+      "output": "/media/orange.webp",
+      "outputDimensions": [
+        202,
+        144
+      ],
+      "crop": [
+        13,
+        12,
+        215,
+        156
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "orange",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 29450
+    },
+    {
+      "source": "assets/originals/peach_catalog.jpg.jpeg",
+      "dimensions": [
+        218,
+        159
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3711,
+      "output": "/media/peach.webp",
+      "outputDimensions": [
+        216,
+        139
+      ],
+      "crop": [
+        2,
+        20,
+        218,
+        159
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "peach",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 23159
+    },
+    {
+      "source": "assets/originals/Premium Iranian Fruit Export Banner.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "aspectRatio": 1.7768,
+      "output": "/media/hero-fruit.webp",
+      "outputDimensions": [
+        892,
+        941
+      ],
+      "crop": [
+        780,
+        0,
+        1672,
+        941
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "hero-fruit",
+      "visibleTextOrUI": "Embedded logo, headline, description and buttons; clean right-hand crop selected where noted",
+      "resolutionLimit": "Preserve aspect ratio; no upscaling performed",
+      "bytes": 2277047
+    },
+    {
+      "source": "assets/originals/SUNXPORTCO-WEB (1).png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "aspectRatio": 0.75,
+      "usage": "Design reference only; never embedded as a page",
+      "visibleTextOrUI": "Complete mockup including browser frame, navigation, body text, forms/buttons and unsupported claims",
+      "resolutionLimit": "Full reference page; unsuitable as website bitmap",
+      "verification": "Audited in image montage; no production output selected",
+      "bytes": 2137164
+    },
+    {
+      "source": "assets/originals/SUNXPORTCO-WEB (2).png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "aspectRatio": 0.75,
+      "usage": "Design reference only; never embedded as a page",
+      "visibleTextOrUI": "Complete mockup including browser frame, navigation, body text, forms/buttons and unsupported claims",
+      "resolutionLimit": "Full reference page; unsuitable as website bitmap",
+      "verification": "Audited in image montage; no production output selected",
+      "bytes": 1957570
+    },
+    {
+      "source": "assets/originals/SUNXPORTCO-WEB (3).png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "aspectRatio": 0.75,
+      "usage": "Design reference only; never embedded as a page",
+      "visibleTextOrUI": "Complete mockup including browser frame, navigation, body text, forms/buttons and unsupported claims",
+      "resolutionLimit": "Full reference page; unsuitable as website bitmap",
+      "verification": "Audited in image montage; no production output selected",
+      "bytes": 2249114
+    },
+    {
+      "source": "assets/originals/SUNXPORTCO-WEB (4).png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "aspectRatio": 0.75,
+      "usage": "Design reference only; never embedded as a page",
+      "visibleTextOrUI": "Complete mockup including browser frame, navigation, body text, forms/buttons and unsupported claims",
+      "resolutionLimit": "Full reference page; unsuitable as website bitmap",
+      "verification": "Audited in image montage; no production output selected",
+      "bytes": 1908034
+    },
+    {
+      "source": "assets/originals/SUNXPORTCO-WEB (5).png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "aspectRatio": 0.75,
+      "usage": "Design reference only; never embedded as a page",
+      "visibleTextOrUI": "Complete mockup including browser frame, navigation, body text, forms/buttons and unsupported claims",
+      "resolutionLimit": "Full reference page; unsuitable as website bitmap",
+      "verification": "Audited in image montage; no production output selected",
+      "bytes": 2150392
+    },
+    {
+      "source": "assets/originals/SUNXPORTCO-WEB (6).png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "aspectRatio": 0.75,
+      "usage": "Design reference only; never embedded as a page",
+      "visibleTextOrUI": "Complete mockup including browser frame, navigation, body text, forms/buttons and unsupported claims",
+      "resolutionLimit": "Full reference page; unsuitable as website bitmap",
+      "verification": "Audited in image montage; no production output selected",
+      "bytes": 2055364
+    },
+    {
+      "source": "assets/originals/SUNXPORTCO-WEB (7).png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "aspectRatio": 0.75,
+      "usage": "Design reference only; never embedded as a page",
+      "visibleTextOrUI": "Complete mockup including browser frame, navigation, body text, forms/buttons and unsupported claims",
+      "resolutionLimit": "Full reference page; unsuitable as website bitmap",
+      "verification": "Audited in image montage; no production output selected",
+      "bytes": 2178401
+    },
+    {
+      "source": "assets/originals/watermelon_catalog.jpg.jpeg",
+      "dimensions": [
+        215,
+        159
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3522,
+      "output": "/media/watermelon.webp",
+      "outputDimensions": [
+        202,
+        139
+      ],
+      "crop": [
+        13,
+        20,
+        215,
+        159
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "watermelon",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 26934
+    },
+    {
+      "source": "assets/originals/WhatsApp_QR_original_verified.jpeg",
+      "dimensions": [
+        345,
+        344
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.0029,
+      "output": "/media/whatsapp-qr.png",
+      "outputDimensions": [
+        345,
+        344
+      ],
+      "usage": "Original contact QR preserved losslessly",
+      "verification": "Decoded using OpenCV QRCodeDetector",
+      "decodedDestination": "https://wa.me/qr/Q6PY5EQN433UG1",
+      "accountMatch": "Not verifiable from opaque token; phone-form URL supplied separately in brief",
+      "visibleTextOrUI": "WhatsApp icon within original QR",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 30182
+    },
+    {
+      "source": "assets/originals/SunExportCo_Export_Logistics/container_port_at_sunset.jpg",
+      "dimensions": [
+        243,
+        101
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.4059,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 16128
+    },
+    {
+      "source": "assets/originals/SunExportCo_Export_Logistics/warehouse_with_branded_export_crates.jpg",
+      "dimensions": [
+        428,
+        291
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.4708,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 86808
+    },
+    {
+      "source": "assets/originals/SunExportCo_Hero_Banners/about_hero_orchard_worker.jpg",
+      "dimensions": [
+        552,
+        318
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.7358,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup photograph crop; some left-edge heading remnants; export-warehouse selected crop removes them",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 144561
+    },
+    {
+      "source": "assets/originals/SunExportCo_Hero_Banners/contact_hero_assorted_fruits.jpg",
+      "dimensions": [
+        535,
+        282
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.8972,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup photograph crop; some left-edge heading remnants; export-warehouse selected crop removes them",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 122983
+    },
+    {
+      "source": "assets/originals/SunExportCo_Hero_Banners/export_hero_fruit_boxes_warehouse.jpg",
+      "dimensions": [
+        550,
+        289
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.9031,
+      "output": "/media/export-warehouse.webp",
+      "outputDimensions": [
+        518,
+        289
+      ],
+      "crop": [
+        32,
+        0,
+        550,
+        289
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "export-warehouse",
+      "visibleTextOrUI": "Mockup photograph crop; some left-edge heading remnants; export-warehouse selected crop removes them",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 106552
+    },
+    {
+      "source": "assets/originals/SunExportCo_Hero_Banners/faq_hero_oranges_on_tree.jpg",
+      "dimensions": [
+        349,
+        277
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.2599,
+      "output": "/media/oranges-tree.webp",
+      "outputDimensions": [
+        340,
+        277
+      ],
+      "crop": [
+        0,
+        0,
+        340,
+        277
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "oranges-tree",
+      "visibleTextOrUI": "Mockup photograph crop; some left-edge heading remnants; export-warehouse selected crop removes them",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 77070
+    },
+    {
+      "source": "assets/originals/SunExportCo_Hero_Banners/homepage_fruit_landscape_right.jpg",
+      "dimensions": [
+        554,
+        343
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.6152,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 148208
+    },
+    {
+      "source": "assets/originals/SunExportCo_Hero_Banners/homepage_hero_composed_with_text.jpg",
+      "dimensions": [
+        990,
+        342
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.8947,
+      "usage": "Source candidate; contains headings/buttons/logo",
+      "visibleTextOrUI": "Embedded logo, headline, description and buttons; clean right-hand crop selected where noted",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Preserve aspect ratio; no upscaling performed",
+      "bytes": 225779
+    },
+    {
+      "source": "assets/originals/SunExportCo_Hero_Banners/products_hero_citrus_apples_kiwi.jpg",
+      "dimensions": [
+        533,
+        277
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.9242,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup photograph crop; some left-edge heading remnants; export-warehouse selected crop removes them",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 105749
+    },
+    {
+      "source": "assets/originals/SunExportCo_Kiwi_Gallery/kiwi_closeup.jpg",
+      "dimensions": [
+        109,
+        77
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.4156,
+      "output": "/media/kiwi-closeup.webp",
+      "outputDimensions": [
+        98,
+        71
+      ],
+      "crop": [
+        11,
+        6,
+        109,
+        77
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi-closeup",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 7482
+    },
+    {
+      "source": "assets/originals/SunExportCo_Kiwi_Gallery/kiwi_in_export_crate.jpg",
+      "dimensions": [
+        109,
+        79
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3797,
+      "output": "/media/kiwi-crate.webp",
+      "outputDimensions": [
+        98,
+        77
+      ],
+      "crop": [
+        11,
+        2,
+        109,
+        79
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi-crate",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 7753
+    },
+    {
+      "source": "assets/originals/SunExportCo_Kiwi_Gallery/kiwi_large_product_photo.jpg",
+      "dimensions": [
+        425,
+        367
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.158,
+      "output": "/media/kiwi-main.webp",
+      "outputDimensions": [
+        390,
+        358
+      ],
+      "crop": [
+        2,
+        5,
+        392,
+        363
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi-main",
+      "visibleTextOrUI": "White rounded frame; lower-right magnifying-glass UI icon removed by selected left crop",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 109180
+    },
+    {
+      "source": "assets/originals/SunExportCo_Kiwi_Gallery/kiwi_on_tree.jpg",
+      "dimensions": [
+        109,
+        80
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3625,
+      "output": "/media/kiwi-orchard.webp",
+      "outputDimensions": [
+        98,
+        78
+      ],
+      "crop": [
+        11,
+        2,
+        109,
+        80
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi-orchard",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 8536
+    },
+    {
+      "source": "assets/originals/SunExportCo_Kiwi_Gallery/stacked_export_crates.jpg",
+      "dimensions": [
+        109,
+        107
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.0187,
+      "output": "/media/kiwi-pallet.webp",
+      "outputDimensions": [
+        99,
+        103
+      ],
+      "crop": [
+        10,
+        4,
+        109,
+        107
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi-pallet",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 13501
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/about_markets_fresh_produce_worldmap.jpg",
+      "dimensions": [
+        351,
+        149
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.3557,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Partial text above map illustration; illustrative map must not imply actual destination markets",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 37298
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/contact_fruit_banner_right.jpg",
+      "dimensions": [
+        444,
+        206
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.1553,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 85458
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/contact_orchard_cta.jpg",
+      "dimensions": [
+        290,
+        115
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.5217,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Email link fragment above orchard picture; source candidate only",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 20300
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/faq_fresh_fruit_still_life.jpg",
+      "dimensions": [
+        264,
+        206
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.2816,
+      "output": "/media/fruit-still-life.webp",
+      "outputDimensions": [
+        263,
+        203
+      ],
+      "crop": [
+        1,
+        3,
+        264,
+        206
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "fruit-still-life",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 40470
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/faq_orange_branches_footer.jpg",
+      "dimensions": [
+        263,
+        113
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.3274,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 21362
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/faq_orange_orchard.jpg",
+      "dimensions": [
+        330,
+        277
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.1913,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 74036
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/farmer_in_orchard.jpg",
+      "dimensions": [
+        444,
+        262
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.6947,
+      "output": "/media/orchard.webp",
+      "outputDimensions": [
+        441,
+        259
+      ],
+      "crop": [
+        3,
+        3,
+        444,
+        262
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "orchard",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 105697
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/hands_holding_fresh_fruit.jpg",
+      "dimensions": [
+        256,
+        192
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3333,
+      "output": "/media/fruit-harvest.webp",
+      "outputDimensions": [
+        254,
+        191
+      ],
+      "crop": [
+        2,
+        1,
+        256,
+        192
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "fruit-harvest",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 34273
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/homepage_citrus_branch_footer.jpg",
+      "dimensions": [
+        215,
+        98
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.1939,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Green CTA button/bar above branch photo; source candidate only",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 15855
+    },
+    {
+      "source": "assets/originals/SunExportCo_Orchard_Lifestyle/oranges_on_tree_about.jpg",
+      "dimensions": [
+        224,
+        80
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.8,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Green CTA button/bar above branch photo; source candidate only",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 13328
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/apples_sorting_packaging.jpg",
+      "dimensions": [
+        175,
+        113
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.5487,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Description text fragments above photograph; source candidate only",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 17392
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/catalog_export_cartons.jpg",
+      "dimensions": [
+        276,
+        150
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.84,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 31441
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/export_cardboard_cartons.jpg",
+      "dimensions": [
+        181,
+        113
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.6018,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 15017
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/export_custom_branding.jpg",
+      "dimensions": [
+        189,
+        113
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.6726,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 14700
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/export_documents_clipboard.jpg",
+      "dimensions": [
+        179,
+        113
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.5841,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Description text fragments above photograph; source candidate only",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 15109
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/homepage_mixed_export_cartons.jpg",
+      "dimensions": [
+        335,
+        181
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.8508,
+      "output": "/media/packaging.webp",
+      "outputDimensions": [
+        320,
+        175
+      ],
+      "crop": [
+        16,
+        6,
+        336,
+        181
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "packaging",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 46691
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/kiwi_carton_box.jpg",
+      "dimensions": [
+        225,
+        106
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.1226,
+      "output": "/media/kiwi-carton.webp",
+      "outputDimensions": [
+        220,
+        80
+      ],
+      "crop": [
+        5,
+        26,
+        225,
+        106
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi-carton",
+      "visibleTextOrUI": "Heading/description remnants above photograph; packaging includes printed illustrative branding",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 16914
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/kiwi_custom_packaging.jpg",
+      "dimensions": [
+        221,
+        106
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.0849,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Heading/description remnants above photograph; packaging includes printed illustrative branding",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 15930
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/kiwi_pallet_boxes.jpg",
+      "dimensions": [
+        221,
+        106
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.0849,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Heading/description remnants above photograph; packaging includes printed illustrative branding",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 23577
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/kiwi_plastic_trays.jpg",
+      "dimensions": [
+        221,
+        106
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.0849,
+      "output": "/media/kiwi-trays.webp",
+      "outputDimensions": [
+        221,
+        86
+      ],
+      "crop": [
+        0,
+        20,
+        221,
+        106
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "kiwi-trays",
+      "visibleTextOrUI": "Heading/description remnants above photograph; packaging includes printed illustrative branding",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 16628
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/oranges_in_carton.jpg",
+      "dimensions": [
+        200,
+        90
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.2222,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 13056
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/palletized_export_boxes.jpg",
+      "dimensions": [
+        200,
+        90
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.2222,
+      "output": "/media/export-pallet.webp",
+      "outputDimensions": [
+        194,
+        69
+      ],
+      "crop": [
+        6,
+        21,
+        200,
+        90
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "export-pallet",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 11974
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/refrigerated_export_truck.jpg",
+      "dimensions": [
+        180,
+        113
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.5929,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Description text fragments above photograph; source candidate only",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 14581
+    },
+    {
+      "source": "assets/originals/SunExportCo_Packaging_Photos/refrigerated_shipping_container.jpg",
+      "dimensions": [
+        201,
+        90
+      ],
+      "format": "JPEG",
+      "aspectRatio": 2.2333,
+      "output": "/media/export-container.webp",
+      "outputDimensions": [
+        192,
+        72
+      ],
+      "crop": [
+        9,
+        18,
+        201,
+        90
+      ],
+      "verification": "Visually inspected; non-generative crop; company ownership and operational claims unverified",
+      "usage": "export-container",
+      "visibleTextOrUI": "Mockup crop may contain white borders, rounded corners, adjacent content or interface fragments; selected output crop removes these where feasible",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 12782
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/apple_catalog.jpg",
+      "dimensions": [
+        217,
+        155
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.4,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 25522
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/apple_homepage_thumbnail.jpg",
+      "dimensions": [
+        118,
+        100
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.18,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Small crop with rounded corners / occasional adjacent card borders; selected larger catalog alternative",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 9813
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/cucumber_catalog.jpg",
+      "dimensions": [
+        217,
+        159
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3648,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 26703
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/cucumber_homepage_thumbnail.jpg",
+      "dimensions": [
+        118,
+        100
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.18,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Small crop with rounded corners / occasional adjacent card borders; selected larger catalog alternative",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 10672
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/kiwi_catalog.jpg",
+      "dimensions": [
+        218,
+        156
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3974,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 25087
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/kiwi_homepage_thumbnail.jpg",
+      "dimensions": [
+        116,
+        100
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.16,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Small crop with rounded corners / occasional adjacent card borders; selected larger catalog alternative",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 9391
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/mandarin_catalog.jpg",
+      "dimensions": [
+        217,
+        155
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.4,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 28535
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/mandarin_homepage_thumbnail.jpg",
+      "dimensions": [
+        118,
+        100
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.18,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Small crop with rounded corners / occasional adjacent card borders; selected larger catalog alternative",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 10708
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/mixed_produce_crates_catalog.jpg",
+      "dimensions": [
+        217,
+        159
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3648,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 25815
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/orange_catalog.jpg",
+      "dimensions": [
+        215,
+        155
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3871,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 29450
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/orange_homepage_thumbnail.jpg",
+      "dimensions": [
+        119,
+        100
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.19,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Small crop with rounded corners / occasional adjacent card borders; selected larger catalog alternative",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 11233
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/peach_catalog.jpg",
+      "dimensions": [
+        218,
+        159
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3711,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 23159
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/peach_homepage_thumbnail.jpg",
+      "dimensions": [
+        116,
+        100
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.16,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Small crop with rounded corners / occasional adjacent card borders; selected larger catalog alternative",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 9527
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/watermelon_catalog.jpg",
+      "dimensions": [
+        215,
+        159
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.3522,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Product photo crop with rounded corners and surrounding white frame; mandarin has adjacent left-edge image fragment; mixed crates has overlaid plus control",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 26934
+    },
+    {
+      "source": "assets/originals/SunExportCo_Product_Photos/watermelon_homepage_thumbnail.jpg",
+      "dimensions": [
+        117,
+        100
+      ],
+      "format": "JPEG",
+      "aspectRatio": 1.17,
+      "usage": "Candidate / duplicate; not selected",
+      "visibleTextOrUI": "Small crop with rounded corners / occasional adjacent card borders; selected larger catalog alternative",
+      "verification": "Audited in image montage; no production output selected",
+      "resolutionLimit": "Small source; use at native dimensions or a restrained small illustration; replacement high-resolution photography pending",
+      "bytes": 11275
+    }
+  ],
+  "archives": [
+    {
+      "source": "C:\\Users\\Divan Studio\\Downloads\\SunExportCo_Export_Logistics.zip",
+      "bytes": 103167,
+      "memberCount": 2,
+      "extractionDirectory": "assets/originals/SunExportCo_Export_Logistics",
+      "verification": "All members checked to remain inside archive extraction directory"
+    },
+    {
+      "source": "C:\\Users\\Divan Studio\\Downloads\\SunExportCo_Hero_Banners.zip",
+      "bytes": 931534,
+      "memberCount": 7,
+      "extractionDirectory": "assets/originals/SunExportCo_Hero_Banners",
+      "verification": "All members checked to remain inside archive extraction directory"
+    },
+    {
+      "source": "C:\\Users\\Divan Studio\\Downloads\\SunExportCo_Kiwi_Gallery.zip",
+      "bytes": 146861,
+      "memberCount": 5,
+      "extractionDirectory": "assets/originals/SunExportCo_Kiwi_Gallery",
+      "verification": "All members checked to remain inside archive extraction directory"
+    },
+    {
+      "source": "C:\\Users\\Divan Studio\\Downloads\\SunExportCo_Orchard_Lifestyle.zip",
+      "bytes": 448978,
+      "memberCount": 10,
+      "extractionDirectory": "assets/originals/SunExportCo_Orchard_Lifestyle",
+      "verification": "All members checked to remain inside archive extraction directory"
+    },
+    {
+      "source": "C:\\Users\\Divan Studio\\Downloads\\SunExportCo_Packaging_Photos.zip",
+      "bytes": 266888,
+      "memberCount": 14,
+      "extractionDirectory": "assets/originals/SunExportCo_Packaging_Photos",
+      "verification": "All members checked to remain inside archive extraction directory"
+    },
+    {
+      "source": "C:\\Users\\Divan Studio\\Downloads\\SunExportCo_Product_Photos.zip",
+      "bytes": 284951,
+      "memberCount": 15,
+      "extractionDirectory": "assets/originals/SunExportCo_Product_Photos",
+      "verification": "All members checked to remain inside archive extraction directory"
+    }
+  ],
+  "businessDocument": {
+    "source": "C:\\Users\\Divan Studio\\Downloads\\SunExportCo_Website_Brief_FA_RTL.pdf",
+    "pages": 15,
+    "extraction": "docs/brief-extracted.txt",
+    "status": "Read entire document; draft business source, operational details require confirmation"
+  },
+  "summary": {
+    "imageCount": 69,
+    "optimizedOutputCount": 24,
+    "qrDestination": "https://wa.me/qr/Q6PY5EQN433UG1",
+    "officialLogo": "No standalone official SVG supplied; clean temporary HTML wordmark permitted by implementation request",
+    "replacementNeeded": [
+      "High-resolution photography for all seven products",
+      "Official standalone SVG logo",
+      "Confirmed company-owned orchard/warehouse/packaging photographs if these are presented as business evidence"
+    ]
+  }
+}

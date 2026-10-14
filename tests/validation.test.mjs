@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { randomUUID } from 'node:crypto';
+import { inquirySchema, productSchema, settingsSchema } from '../lib/validation.js';
+import { productSeeds, settingsSeed } from '../lib/seed-data.js';
+const inquiry = { fullName: 'Example Buyer', company: '', country: '', email: 'buyer@example.test', phone: '', productId: 'kiwi', quantity: 4, unit: 'tonnes', destination: 'Example port', message: '', locale: 'en', sourcePage: '/en/request-quote', consent: true, requestId: randomUUID(), website: '' };
+test('buyer must supply a valid contact and explicit privacy acknowledgement', () => { assert.equal(inquirySchema.safeParse(inquiry).success, true); for (const edit of [{ email: '', phone: '' }, { email: '', phone: '-------' }, { email: '', phone: '123 456' }, { email: 'invalid' }, { consent: false }, { quantity: -1 }, { quantity: 0 }, { unit: 'unknown' }]) assert.equal(inquirySchema.safeParse({ ...inquiry, ...edit }).success, false); assert.equal(inquirySchema.safeParse({ ...inquiry, email: '', phone: '+44 1234 56789' }).success, true); });
+test('mutations reject Mongo operators, unsolicited keys, spam and unsafe media', () => { for (const edit of [{ email: { $ne: null } }, { fullName: { $gt: '' } }, { website: 'spam' }, { admin: true }, { sourcePage: 'https://evil.test' }]) assert.equal(inquirySchema.safeParse({ ...inquiry, ...edit }).success, false); const product = structuredClone(productSeeds[0]); product.images[0].src = '/uploads/executable.svg'; assert.equal(productSchema.safeParse(product).success, false); });
+test('seed products have complete localized content and honest specifications', () => { for (const product of productSeeds) assert.equal(productSchema.safeParse(product).success, true); assert.equal(settingsSchema.safeParse(settingsSeed).success, true); assert.equal(settingsSchema.safeParse({ ...settingsSeed, whatsappUrl: 'https://evil.test' }).success, false); });

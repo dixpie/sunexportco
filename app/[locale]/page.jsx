@@ -1,0 +1,17 @@
+import Image from 'next/image';
+import { notFound } from 'next/navigation';
+import { Hero, Button, SectionHeading, ProductGrid, Reasons, Process, Cta, ExtraSections } from '../../components/site.jsx';
+import { getProducts, getSettings, getPages } from '../../lib/data.js';
+import { t, locales } from '../../lib/copy.js';
+import { metadata } from '../../lib/seo.js';
+export async function generateMetadata({ params }) { const { locale } = await params; if (!locales.includes(locale)) return {}; const page = (await getPages()).find(p => p.id === 'home'); return metadata(locale, '', page?.content[locale].title || (locale === 'ru' ? 'Экспорт свежих фруктов из Ирана | SunExportCo' : 'Fresh Fruit Export from Iran | SunExportCo'), page?.content[locale].description || (locale === 'ru' ? 'Свежие фрукты и сельскохозяйственная продукция из Ирана для оптовых поставок. Узнайте о наличии, характеристиках, упаковке и запросите предложение.' : 'Explore fresh Iranian fruits and produce for wholesale export. Contact SunExportCo for product specifications, seasonal availability, packaging options, and quotations.')); }
+export default async function Home({ params }) {
+  const { locale } = await params; const c = t(locale); const [products, settings, pages] = await Promise.all([getProducts(), getSettings(), getPages()]); const page = pages.find(p => p.id === 'home'); if (!page) notFound();
+  return <><Hero locale={locale} title={page.content[locale].title || c.hero} description={page.content[locale].description || c.heroSub}><div className="button-group"><Button href={`/${locale}/products`} event="Products click">{c.explore}</Button><Button href={`/${locale}/request-quote`} outline>{c.quote}</Button></div></Hero>
+    <section className="section container"><SectionHeading title={c.catalogTitle} href={`/${locale}/products`} link={c.allProducts}>{c.catalogSub}</SectionHeading><ProductGrid products={products} locale={locale} compact/></section>
+    <section className="about-preview section container"><figure><Image src="/media/orchard.webp" width={441} height={259} sizes="(max-width: 600px) 90vw, 441px" alt={locale === 'ru' ? 'Иллюстрация сбора фруктов в саду' : 'Illustrative fruit harvest in an orchard'}/><figcaption>{c.illustrative}</figcaption></figure><div><p className="eyebrow">SUNEXPORTCO</p><h2>{c.connection}</h2><span className="orange-rule"/><p>{c.aboutIntro}</p><Button href={`/${locale}/about`} outline event="About click">{c.about}</Button></div></section>
+    <section className="section tinted"><div className="container"><SectionHeading title={c.why}>{c.whySub}</SectionHeading><Reasons locale={locale}/></div></section>
+    <section className="section container"><SectionHeading title={c.processTitle}>{c.processSub}</SectionHeading><Process locale={locale}/></section>
+    <section className="packaging-preview section"><div className="container packaging-grid"><div><h2>{c.packagingTitle}</h2><span className="orange-rule"/><p>{c.packagingIntro}</p><Button href={`/${locale}/export-packaging`} event="Packaging click">{c.packagingLink}</Button></div><figure><Image src="/media/packaging.webp" width={320} height={175} alt={locale === 'ru' ? 'Иллюстрация фруктов в экспортных коробках' : 'Illustrative fruit packaging in export cartons'}/><figcaption>{c.illustrative}</figcaption></figure></div></section>
+    <ExtraSections page={page} locale={locale}/><Cta locale={locale} settings={settings}/></>;
+}

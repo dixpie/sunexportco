@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env*
+!.env.example
+coverage/
+test-results/
+playwright-report/
+.local/
+uploads/
+assets-original/
+assets/originals/
+*.log
