@@ -33,7 +33,7 @@ Administration supports:
 - Bilingual FAQ editing, publication and ordering.
 - Telephone, WhatsApp URL, verified email/address, original QR reference and its recorded destination.
 - Private inquiries, status filtering, internal notes, and new/contacted/quoted/closed statuses. Lists paginate at 100 records.
-- Raster uploads to a persistent filesystem volume. Add uploaded media references to product galleries and supply English/Russian alt text. First gallery image is the catalog cover. The kiwi main photo is used initially in the detail gallery.
+- Raster uploads to MongoDB GridFS or a persistent filesystem volume. Add uploaded media references to product galleries and supply English/Russian alt text. First gallery image is the catalog cover. The kiwi main photo is used initially in the detail gallery.
 
 Publishing expires the corresponding Next.js data cache immediately, so the next public request reads the updated data. This is verified for a single Node instance. Multiple instances need a shared Next.js cache handler with distributed tag invalidation; without it, another instance may retain content for up to the five-minute cache lifetime. MongoDB persistence precedes every inquiry success response. A unique request identifier prevents duplicate retries and concurrent submissions. Email notification is deliberately unconfigured; administrators see `not-configured` on inquiries. No mail delivery promise is made.
 
@@ -42,17 +42,31 @@ Publishing expires the corresponding Next.js data cache immediately, so the next
 ```powershell
 npm run lint
 npm test
+npm run test:media
 npm run build
+npm run test:vercel
 npm run test:integration
 ```
 
 Integration tests download an isolated real MongoDB binary into ignored `.local/`, start the production build on port 3007, seed test data, exercise HTTP endpoints and use installed Chrome for browser checks. This database is discarded afterward. Set `CHROME_PATH` if Chrome is in another location. On Linux, set it to your installed Chromium executable. The tests do not connect to the production database or use a mock persistence layer. A first run can take time because the MongoDB Windows archive is large.
 
+`test:media` checks both storage adapters against an isolated database and temporary filesystem. After a build, `test:vercel` starts production with `VERCEL=1` and no `MEDIA_ROOT`, checks both public languages and authenticated uploads, and verifies that uploaded bytes survive a process restart. These checks do not access the production database.
+
 Tests cover persistence and concurrent retries, localized network failure and retry, database outage behavior, protected admin access, password authentication and CSRF, shared inquiry/login throttles, edits and cache invalidation, draft visibility, media validation, language correspondence, SEO routes, and layouts at 360, 390, 768, 1024 and 1440px. Screenshots and the actual verification report are written to `docs/qa/`. Integration also runs local Chrome LCP/CLS samples with explicit network and CPU throttling. See the reports for completed checks and remaining limitations; do not infer field performance or accessibility certification from these lab checks.
+
+## Vercel deployment
+
+Vercel automatically uses MongoDB GridFS for uploaded images (`VERCEL=1`). `MEDIA_ROOT` is not required and any old value is ignored with this backend. The application stores image bytes in the same MongoDB database as the catalog, in `media.files` and `media.chunks`, and serves them through `/api/media/[id]`. No additional storage service or dependency is needed. Vercel's temporary filesystem must not be used as durable media storage.
+
+1. Set `MONGODB_URI`, `SESSION_SECRET` (at least 32 characters) and `SITE_ORIGIN=https://sunexportco.vercel.app` (or the final custom domain) in the Vercel project's production environment. Use the exact origin without a path, query or hash. Ensure the MongoDB database is reachable by the deployed functions.
+2. Set `MEDIA_STORAGE=mongodb` explicitly, or leave it unset to use automatic Vercel detection. Remove any explicit `MEDIA_STORAGE=filesystem`. Keep `ALLOW_INDEXING=false` until business review is complete.
+3. Seed and bootstrap the intended database as described above, then deploy/redeploy so the code and environment changes take effect. Check `/en`, `/ru`, admin login, and an image upload/download. Keep multipart uploads below the hosting platform's request body limit; on Vercel, use images smaller than 4 MB to allow room for multipart overhead.
+
+The previous startup errors (`Missing production configuration: MEDIA_ROOT` and `MEDIA_ROOT must be an absolute persistent directory`) came from requiring filesystem storage on Vercel. A local Windows path cannot supply persistent storage to Vercel's Linux functions. Existing filesystem media records continue to use their original directory on server deployments; their files are not automatically migrated to GridFS. Re-upload those files and update galleries when moving an existing media library to Vercel. Back up the GridFS collections together with the application database.
 
 ## Node.js production deployment
 
-This is a Node.js server application, not a static export or Cloudflare Worker. MongoDB connections require the Node runtime. Deploy on a server/container or hosting platform that supports Node and a mounted persistent filesystem for media. For multiple app instances, all must share the same media volume. An object-storage adapter is not included; hosts with ephemeral local storage need a persistent volume or an added adapter before enabling uploads.
+This is a Node.js server application, not a static export or Cloudflare Worker. MongoDB connections require the Node runtime. On servers/containers, media defaults to filesystem storage and requires an absolute `MEDIA_ROOT` on a mounted persistent volume. For multiple app instances, all must share the same media volume. Alternatively, set `MEDIA_STORAGE=mongodb` to store images in GridFS without a local directory, including on hosts with ephemeral storage.
 
 1. Configure production environment variables through the host secret manager. Use a separate database and secret from development. Set `SITE_ORIGIN=https://www.sunexportco.com` (or the confirmed final origin), without a path/query. Configure MongoDB with restricted credentials, TLS and a network allowlist. Mount `MEDIA_ROOT` on durable storage.
 2. Run `npm ci`, `npm run seed` and the bootstrap command using the intended database. Seed is safe to repeat. Remove bootstrap credentials afterward.
